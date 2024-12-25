@@ -1,0 +1,36 @@
+/*
+================================================
+   Main Styles 
+================================================
+*/
+
+/*  Font Family */
+@font-face {
+  font-family: 'Sora';
+  src: url(../fonts/Sora/static/Sora-Regular.ttf)
+}
+
+/*  Poppins font family */
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+img.custom-logo {
+  height: auto;
+  width: 150px;
+  vertical-align: middle;
+}
+
+.dropdown:hover>.dropdown-menu{
+		display: block;
+    /* transition: all 0.3s ease-in-out; */
+    /* transition: all 0.3s linear; */
+    
+    /* transition: all 0.5s ease !important; */
+}
+
+html, body, div {
+  font-family: 'Sora', serif;
+ 
+}
